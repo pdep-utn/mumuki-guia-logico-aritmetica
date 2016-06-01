@@ -5,9 +5,9 @@
 ERROR: Expected Callable predicate but instead got 4
 ```
 
-Esta es la forma que Prolog tiene de decirnos _esperaba algo que pudiera consultar, pero vos me pasaste otra cosa_. ¿Y por qué no puedo consultar `4` o `8 * 9`?
+Esta es la forma que Prolog tiene de decirnos _esperaba algo que pudiera consultar, pero vos me pasaste otra cosa_.
 
-Simple: una **consulta** es algo para lo que puedo buscar pruebas; es decir, utilizando la información en mi base de conocimiento, debo poder llegar a inferir si esa pregunta es verdadera o falsa. 
+¿Y por qué no puedo consultar `4` o `8 * 9`? Simple: una **consulta** es algo para lo que puedo buscar pruebas; es decir, utilizando la información en mi base de conocimiento, debo poder llegar a inferir si esa pregunta es verdadera o falsa. 
 
 Así, `esAstronauta(yuri)` es una pregunta cuya respuesta puede ser `yes` o `no`, pero `4`, `4 + 5`, etc no son cosas que tengan un valor de verdad asociado. Simplemente "son".   
 
