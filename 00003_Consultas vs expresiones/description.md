@@ -1,4 +1,4 @@
-¿Qué es lo que acaba de suceder? :open_mouth: Probablemente, para cada una de las consultas anteriores, obtuviste un error similar al siguiente: 
+¿Qué es lo que acaba de suceder? :open_mouth: 
 
 ```
 ? 4
