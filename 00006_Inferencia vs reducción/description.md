@@ -2,10 +2,10 @@ Comparemos resultados:
 
 | Pregunta         | Prolog | Haskell |
 |------------------|--------|---------|
-|`4 <> 4`          |no      |   False |
-|`4 + 0 <> 4 + 0`  |no      | False   |
-|`4  <> 4 + 0`     |yes     | False   |
-|`0 + 4  <> 4 + 0` |yes     | False   |
+|`4 ≠ 4`          |no      |   False |
+|`4 + 0 ≠ 4 + 0`  |no      | False   |
+|`4  ≠ 4 + 0`     |yes     | False   |
+|`0 + 4  ≠ 4 + 0` |yes     | False   |
 
 Parece que Haskell es más _inteligente_, ¿no? Se pudo dar cuenta de que `4 + 0` y `0 + 4` _reducen_ ambos a 4, ¿no?
 
