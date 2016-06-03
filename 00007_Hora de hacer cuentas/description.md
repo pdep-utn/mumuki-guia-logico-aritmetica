@@ -8,6 +8,6 @@ Ahora que te convencimos de que Prolog, por ser un motor de inferencia, no puede
 > * `10 > 5`
 > * `10 > 5+2`
 > * `10 > 6 + 23`
-> * `10 > 6 + 23`
+> * `10 < 6 + 23`
 > * `10 is (2 + 0.5) * 4` 
 > * `10.0 is (2 + 0.5) * 4` 
