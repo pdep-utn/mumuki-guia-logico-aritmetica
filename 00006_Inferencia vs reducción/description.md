@@ -11,7 +11,7 @@ Parece que Haskell es más _inteligente_, ¿no? Se pudo dar cuenta de que `4 + 0
 
 En realidad, ni tanto ni tan poco: sucede que nos estamos olvidando una diferencia paradigmática entre ambos lenguajes: 
 
-* Haskell es _un motor de reducción_, que trabaja con valores e reducir toda expresión a su mínima expresión (sic)
+* Haskell es _un motor de reducción_, que trabaja con valores y trata de reducir toda expresión a su mínima expresión (sic)
 * Prolog es un motor de inferencia, que trabaja con individuos sobre los que buscar probar afirmaciones _existenciales_, como verdaderas o falsas. 
 
 > Ufa, ufa. ¿Y que pasa si realmente quisera saber si 4 + 0 _reduce_ a 4? 
