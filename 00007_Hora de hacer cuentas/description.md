@@ -1,7 +1,7 @@
 Ahora que te convencimos de que Prolog, por ser un motor de inferencia, no puede hacer cuentas, te podemos decir la verdad completa: sí existen algunas formas de hacer reducciones, mediante algunos predicados especiales: 
 
 * `is/2`: relaciona un número con una cuenta (en ese orden), cuando la cuenta reduce a ese número 
-* `>/2`, `</2`, `<=/2`, `>=/2`, relacionan dos expresiones (que pueden ser números o cuentas), cuando la primera reduce a un número mayor, menor, etc. que la segunda.
+* `>/2`, `</2`, `=</2`, `>=/2`, relacionan dos expresiones (que pueden ser números o cuentas), cuando la primera reduce a un número mayor, menor, etc. que la segunda.
 
 > Probá las siguientes consultas (como verás, estos predicados se pueden usar de forma infija): 
 > 
